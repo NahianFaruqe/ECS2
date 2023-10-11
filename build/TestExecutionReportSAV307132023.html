@@ -1,0 +1,1276 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automation Test Results</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jul 13, 2023 06:57:48 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Defaultsuite</a><a class="dropdown-item" href="#">ConsumerTest</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="Defaultsuite ConsumerTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ECS001_ECS007_ECS008_ECS009_validateNewlyCreatedConsumerOnSearchPage</p>
+            <p class="text-sm">
+              <span>6:58:00 PM</span> / <span>00:01:58:844</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ECS001_ECS007_ECS008_ECS009_validateNewlyCreatedConsumerOnSearchPage</h5>
+<span class='badge badge-success'>07.13.2023 6:58:00 PM</span>
+<span class='badge badge-danger'>07.13.2023 6:59:59 PM</span>
+<span class='badge badge-default'>00:01:58:844</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Defaultsuite</span>
+<span class="badge badge-pill badge-default">ConsumerTest</span></div>
+<div class="m-t-10 m-l-5">Verify Newly created Consumer in Search Consumer Page with flow verification</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:02 PM</td>
+        <td>
+          Enter UserName 'rafroz@sav3.qa' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:04 PM</td>
+        <td>
+          Enter Password 'Rahat2007!' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:10 PM</td>
+        <td>
+          Click on Login button is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:10 PM</td>
+        <td>
+          Click on Task button is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:26 PM</td>
+        <td>
+          Entering FirstName on BasicInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:28 PM</td>
+        <td>
+          Entering LastName on BasicInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:33 PM</td>
+        <td>
+          Entering DateOfBirth '06/15/1975' on BasicInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:39 PM</td>
+        <td>
+          Entering TaxID on BasicInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:40 PM</td>
+        <td>
+          Click on Add Link on BasicInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:42 PM</td>
+        <td>
+          Click on Next button on Basic Information page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:50 PM</td>
+        <td>
+          Click on TaxAddress Checkbox on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:52 PM</td>
+        <td>
+          Entering AddressLine1 '50 Valley Stream Pkwy' on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:53 PM</td>
+        <td>
+          Entering City 'Malvern' on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:54 PM</td>
+        <td>
+          Entering PostalCode '19355' on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:58:55 PM</td>
+        <td>
+          Click on Save button on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:59:01 PM</td>
+        <td>
+          Click on Next button on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:59:05 PM</td>
+        <td>
+          Enter '2819559778' in Contact Information page is successfull
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:59:06 PM</td>
+        <td>
+          Enter 'myTest@yop.com' in Contact Information page is successfull
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:59:13 PM</td>
+        <td>
+          Click on Next button on CustomerDueDiligence page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:59:19 PM</td>
+        <td>
+          Click on Next button on BasicInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:59:21 PM</td>
+        <td>
+          Click on Create button on CustomerInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:59:25 PM</td>
+        <td>
+          Get 'Would you like to add documents for this customer?' text message in Popup on CustomerInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:59:26 PM</td>
+        <td>
+          Click on No button in Popup on CustomerInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:59:31 PM</td>
+        <td>
+          Get 'Would you like to add documents for this customer?' text message in Popup on CustomerInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:59:31 PM</td>
+        <td>
+          Successful : ECS008 : Verification of PopUp Message 'Would you like to add documents for this customer?'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:59:31 PM</td>
+        <td>
+          Successful : ECS008 : Verification of PopUp Message 'Would you like to add an account for this customer?'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:59:31 PM</td>
+        <td>
+          Click on 'No, please take me to customer profile page.' link in Popup on CustomerInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:59:45 PM</td>
+        <td>
+          Fetching Active Tab Name in Customer Details page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:59:45 PM</td>
+        <td>
+          Successful : ECS009 : Verification of Overview Tab as default selected Tab on Customer Detail Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:59:59 PM</td>
+        <td>
+          Successful : ECS001 & ECS007 : Verification of Newly created Consumer By First Name in Search Consumer Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:59:59 PM</td>
+        <td>
+          Successful : ECS001 & ECS007 : Verification of Newly created Consumer By Last Name in Search Consumer Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:59:59 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="Defaultsuite ConsumerTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ECS002_validateSearchFunctionalityForInvalidConsumer</p>
+            <p class="text-sm">
+              <span>7:00:09 PM</span> / <span>00:00:16:070</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ECS002_validateSearchFunctionalityForInvalidConsumer</h5>
+<span class='badge badge-success'>07.13.2023 7:00:09 PM</span>
+<span class='badge badge-danger'>07.13.2023 7:00:25 PM</span>
+<span class='badge badge-default'>00:00:16:070</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Defaultsuite</span>
+<span class="badge badge-pill badge-default">ConsumerTest</span></div>
+<div class="m-t-10 m-l-5">Verify Search Functionality for Invalid Consumer</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:00:10 PM</td>
+        <td>
+          Enter UserName 'rafroz@sav3.qa' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:00:12 PM</td>
+        <td>
+          Enter Password 'Rahat2007!' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:00:17 PM</td>
+        <td>
+          Click on Login button is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:00:25 PM</td>
+        <td>
+          Successful : ECS002 : Verification Invalid Consumer should not be display on Search Consumer Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:00:25 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="Defaultsuite ConsumerTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ECS003_validateNewlyCreatedOrganization</p>
+            <p class="text-sm">
+              <span>7:00:38 PM</span> / <span>00:01:48:364</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ECS003_validateNewlyCreatedOrganization</h5>
+<span class='badge badge-success'>07.13.2023 7:00:38 PM</span>
+<span class='badge badge-danger'>07.13.2023 7:02:26 PM</span>
+<span class='badge badge-default'>00:01:48:364</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Defaultsuite</span>
+<span class="badge badge-pill badge-default">ConsumerTest</span></div>
+<div class="m-t-10 m-l-5">Verify Newly created Organization in Search Consumer Page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:00:39 PM</td>
+        <td>
+          Enter UserName 'rafroz@sav3.qa' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:00:41 PM</td>
+        <td>
+          Enter Password 'Rahat2007!' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:00:46 PM</td>
+        <td>
+          Click on Login button is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:00:46 PM</td>
+        <td>
+          Click on Task button is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:00:57 PM</td>
+        <td>
+          Enter organization name 'Org569185800' in Basic Information page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:00:58 PM</td>
+        <td>
+          Selected SSN taxIdType from Dropdown in Basic Information page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:08 PM</td>
+        <td>
+          Enter TaxId '569185800' in Basic Information page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:09 PM</td>
+        <td>
+          Click on DBA Name textfield on Basic Information page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:10 PM</td>
+        <td>
+          Click on Next button on Basic Information page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:18 PM</td>
+        <td>
+          Click on TaxAddress Checkbox on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:19 PM</td>
+        <td>
+          Entering AddressLine1 '50 Valley Stream Pkwy' on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:20 PM</td>
+        <td>
+          Entering City 'Malvern' on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:22 PM</td>
+        <td>
+          Entering PostalCode '19355' on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:23 PM</td>
+        <td>
+          Click on Save button on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:28 PM</td>
+        <td>
+          Click on Next button on LocationInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:33 PM</td>
+        <td>
+          Enter '2819559778' in Contact Information page is successfull
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:34 PM</td>
+        <td>
+          Enter 'myOrg@yop.com' in Contact Information page is successfull
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:41 PM</td>
+        <td>
+          Click on Next button on OrganizationDueDiligence page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:47 PM</td>
+        <td>
+          Click on Next button on CustomerRelatedParties page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:48 PM</td>
+        <td>
+          Click on Create button on CustomerInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:52 PM</td>
+        <td>
+          Click on No button in Popup on CustomerInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:53 PM</td>
+        <td>
+          Click on 'No, please take me to customer profile page.' link in Popup on CustomerInformation page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:02:16 PM</td>
+        <td>
+          Click on Consumer Search Icon is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:02:26 PM</td>
+        <td>
+          Successful : ECS003 : Verification of Newly created Organization in Search Consumer Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:02:26 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="Defaultsuite ConsumerTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ECS004_validateSearchFunctionalityForInvalidOrganization</p>
+            <p class="text-sm">
+              <span>7:02:35 PM</span> / <span>00:00:19:473</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ECS004_validateSearchFunctionalityForInvalidOrganization</h5>
+<span class='badge badge-success'>07.13.2023 7:02:35 PM</span>
+<span class='badge badge-danger'>07.13.2023 7:02:54 PM</span>
+<span class='badge badge-default'>00:00:19:473</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Defaultsuite</span>
+<span class="badge badge-pill badge-default">ConsumerTest</span></div>
+<div class="m-t-10 m-l-5">Verify Search Functionality for Invalid Organization</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:02:36 PM</td>
+        <td>
+          Enter UserName 'rafroz@sav3.qa' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:02:38 PM</td>
+        <td>
+          Enter Password 'Rahat2007!' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:02:42 PM</td>
+        <td>
+          Click on Login button is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:02:45 PM</td>
+        <td>
+          Click on Consumer Search Icon is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:02:54 PM</td>
+        <td>
+          Successful : ECS004 : Verification Invalid Organization should not be display on Search Organization Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:02:54 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="Defaultsuite ConsumerTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ECS005_ECS14_validateNewlyCreatedBankingAccount</p>
+            <p class="text-sm">
+              <span>7:03:05 PM</span> / <span>00:01:40:995</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ECS005_ECS14_validateNewlyCreatedBankingAccount</h5>
+<span class='badge badge-success'>07.13.2023 7:03:05 PM</span>
+<span class='badge badge-danger'>07.13.2023 7:04:46 PM</span>
+<span class='badge badge-default'>00:01:40:995</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Defaultsuite</span>
+<span class="badge badge-pill badge-default">ConsumerTest</span></div>
+<div class="m-t-10 m-l-5">Verify Newly created Banking Acount for Consumer having last name 'Test' in Search Consumer Page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:03:07 PM</td>
+        <td>
+          Enter UserName 'rafroz@sav3.qa' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:03:08 PM</td>
+        <td>
+          Enter Password 'Rahat2007!' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:03:13 PM</td>
+        <td>
+          Click on Login button is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:03:44 PM</td>
+        <td>
+          Click on Next button on AccountDetails page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:03:44 PM</td>
+        <td>
+          Selected Account Relationship Type Primaryfrom Dropdown is successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:03:48 PM</td>
+        <td>
+          Click on Next button on RelatedParties page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:03:51 PM</td>
+        <td>
+          Selected account group Bankingfrom Dropdown is successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:03:56 PM</td>
+        <td>
+          Selected product type Personal Savings (P2011 - SDA)from Dropdown is successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:04:00 PM</td>
+        <td>
+          Selected Department Id 350 - Depositsfrom Dropdown is successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:04:01 PM</td>
+        <td>
+          Selected Vertical Vertical 01from Dropdown is successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:04:04 PM</td>
+        <td>
+          Click on Next button on PositionDetails page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:04:17 PM</td>
+        <td>
+          Click on submit button on ElectronicAcceptanceDocuments page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:04:25 PM</td>
+        <td>
+          Successful : ECS014 : Verification of new account create confirmation message is successful.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:04:31 PM</td>
+        <td>
+          Click on Consumer Search Icon is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:04:46 PM</td>
+        <td>
+          Fetching Account Number in Account Detail page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:04:46 PM</td>
+        <td>
+          Successful : ECS005 : Verification of newly created account on Account Detail Page is successful.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:04:46 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="Defaultsuite ConsumerTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ECS006_verifyMessageForInvalidAccountSearch</p>
+            <p class="text-sm">
+              <span>7:04:54 PM</span> / <span>00:00:20:811</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ECS006_verifyMessageForInvalidAccountSearch</h5>
+<span class='badge badge-success'>07.13.2023 7:04:54 PM</span>
+<span class='badge badge-danger'>07.13.2023 7:05:15 PM</span>
+<span class='badge badge-default'>00:00:20:811</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Defaultsuite</span>
+<span class="badge badge-pill badge-default">ConsumerTest</span></div>
+<div class="m-t-10 m-l-5">Verify message for account search that doesn't exist</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:04:56 PM</td>
+        <td>
+          Enter UserName 'rafroz@sav3.qa' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:04:57 PM</td>
+        <td>
+          Enter Password 'Rahat2007!' in Login page is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:05:02 PM</td>
+        <td>
+          Click on Login button is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:05:05 PM</td>
+        <td>
+          Click on Consumer Search Icon is successful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:05:15 PM</td>
+        <td>
+          Successful : ECS006 : Verification of message for invalid account in Search Consumer Page is succesful
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:05:15 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">Defaultsuite</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Defaultsuite</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:58:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>ECS001_ECS007_ECS008_ECS009_validateNewlyCreatedConsumerOnSearchPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:00:09 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>ECS002_validateSearchFunctionalityForInvalidConsumer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:00:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>ECS003_validateNewlyCreatedOrganization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:02:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>ECS004_validateSearchFunctionalityForInvalidOrganization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:03:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>ECS005_ECS14_validateNewlyCreatedBankingAccount</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:04:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>ECS006_verifyMessageForInvalidAccountSearch</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">ConsumerTest</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>ConsumerTest</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:58:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>ECS001_ECS007_ECS008_ECS009_validateNewlyCreatedConsumerOnSearchPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:00:09 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>ECS002_validateSearchFunctionalityForInvalidConsumer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:00:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>ECS003_validateNewlyCreatedOrganization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:02:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>ECS004_validateSearchFunctionalityForInvalidOrganization</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:03:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>ECS005_ECS14_validateNewlyCreatedBankingAccount</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:04:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>ECS006_verifyMessageForInvalidAccountSearch</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jul 13, 2023 06:57:48 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jul 13, 2023 07:05:16 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>6</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>6</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='18%'><b>17</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>74</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"ECS001_ECS007_ECS008_ECS009_validateNewlyCreatedConsumerOnSearchPage":118.844,"ECS002_validateSearchFunctionalityForInvalidConsumer":16.07,"ECS003_validateNewlyCreatedOrganization":108.364,"ECS004_validateSearchFunctionalityForInvalidOrganization":19.473,"ECS005_ECS14_validateNewlyCreatedBankingAccount":100.995,"ECS006_verifyMessageForInvalidAccountSearch":20.811
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Defaultsuite</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>ConsumerTest</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>System</td>
+<td>Windows</td>
+</tr>
+<tr>
+<td>Author</td>
+<td>Nahian Omar Faruqe</td>
+</tr>
+<tr>
+<td>Build#</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>Team</td>
+<td>Savana</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>nGage Platform Smoke Suite</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 6,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 17,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 74
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

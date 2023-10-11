@@ -1,0 +1,1 @@
+{"uuid":"95a6e8df-6757-4f21-bb1f-32eaaf5f93a4","name":"com.qa.ecs.base.BaseTest.setup","children":["bd8f1ab3-faef-411e-aec5-b0eb347a2f6e"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1691610037435,"stop":1691610137572}],"afters":[],"start":1691610037430,"stop":1691610137576}
